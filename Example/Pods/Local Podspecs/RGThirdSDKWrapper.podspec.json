@@ -1,0 +1,32 @@
+{
+  "name": "RGThirdSDKWrapper",
+  "version": "0.1.0",
+  "summary": "RGThirdSDKWrapper",
+  "description": "封装第三方SDK,快捷集成和开发",
+  "homepage": "https://github.com/18607304107@163.com/RGThirdSDKWrapper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "18607304107@163.com": "gui.ren@hand-china.com"
+  },
+  "source": {
+    "git": "https://github.com/18607304107@163.com/RGThirdSDKWrapper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "JPUSH",
+      "source_files": "RGThirdSDKWrapper/Classes/JPUSH/**/*",
+      "dependencies": {
+        "JPush": [
+          "3.2.2-noidfa"
+        ]
+      }
+    }
+  ]
+}

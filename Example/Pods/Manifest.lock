@@ -1,0 +1,29 @@
+PODS:
+  - JCore (2.1.1)
+  - JPush (3.2.2-noidfa):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - RGThirdSDKWrapper (0.1.0):
+    - RGThirdSDKWrapper/JPUSH (= 0.1.0)
+  - RGThirdSDKWrapper/JPUSH (0.1.0):
+    - JPush (= 3.2.2-noidfa)
+
+DEPENDENCIES:
+  - RGThirdSDKWrapper (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - JCore
+    - JPush
+
+EXTERNAL SOURCES:
+  RGThirdSDKWrapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JCore: 4072327557f0b83cc22dd4041f2f839740c0077b
+  JPush: d7e9b68edde1e4061e8a61605049b1673cd89df2
+  RGThirdSDKWrapper: 085b493e5dbf89f2be486d84ba6302e6f1116ff8
+
+PODFILE CHECKSUM: d07129553a61681edfb76f68e761e53eaf8289e7
+
+COCOAPODS: 1.5.0
